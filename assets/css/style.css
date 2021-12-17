@@ -73,8 +73,15 @@ p {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
-span {
+/*span {
   letter-spacing: 0.5px;
+}*/
+.kor{
+  font-family: 'Nanum Gothic',sans-serif;
+}
+
+.eng{
+  font-family: 'Roboto' sans-serif;
 }
 
 .container-full {
@@ -110,7 +117,6 @@ span {
 .bold {
   font-weight: 700;
   padding-right: 10px;
-
 }
 
 
@@ -847,7 +853,7 @@ section {
 #history .history-list{
   flex-direction: row;
   justify-content: flex-start;
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 #history h4{
@@ -936,9 +942,7 @@ width:100%;
   height: 100%;
   width: 100%;
 }
-#recruit h4{
-  font-size: 17px;
-}
+
 
 /*#recruit .recruit-container{
   display: flex;
@@ -973,7 +977,6 @@ flex: 0 0 auto;
 }
 
 #recruit h4{
-  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
   text-align: center;
@@ -984,6 +987,10 @@ flex: 0 0 auto;
   font-size: 15px;
   color: #555555;
   line-height: 1.5;
+}
+
+#recruit .kor {
+  font-weight: 800;
 }
 
 #recruit .feature-block a {
@@ -1045,7 +1052,7 @@ padding-top: 80px;
   padding: 0 0 10px 50px;
   margin: 3px 10px 10px 10px;
   line-height: 22px;
-  font-size: 12px;
+  font-size: 14px;
   color:#c2c2c2;
   text-align: left;
 }
