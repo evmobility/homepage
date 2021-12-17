@@ -445,7 +445,7 @@ text-transform: capitalize;
     font-size: 15px;
     line-height: 24px;
     margin-bottom: 30px;
-    padding:0 100px;
+    padding:0 40px;
   }
 
   #hero img {
@@ -574,9 +574,10 @@ section {
 /* Get Started Section
 --------------------------------*/
 #get-started {
-  display: inline-block;
+  display: block;
   height: 100%;
   width: 100%;
+  background-color: #fafafa;
 }
 #get-started .feature-block {
   background: #fff none repeat scroll 0 0;
@@ -634,21 +635,20 @@ section {
 /* features Section
 --------------------------------*/
 
+
+
 #features {
   display:block;
+  background:rgba(0, 0, 0, 0) url(../img/features-bg.png) no-repeat center top fixed;
+  background-size: cover;
   background-color: #fafafa;
   height: 100%;
   width: 100%;
 }
-#features::after{
+#features .overlay {
   width: 100%;
   height: 100%;
-  content: "";
-  background-image: url(../img/features-bg.png);
-  top: center;
-  left: bottom;
-  z-index: -1;
-  opacity: 0.5;
+
 }
 
 #features .feature-block {
@@ -767,17 +767,17 @@ section {
 --------------------------------*/
 #history {
   display: inline-block;
-  background:rgba(0, 0, 0, 0) url(../img/history-bg.jpg) no-repeat center top fixed;
+  /*--background:rgba(0, 0, 0, 0) url(../img/history-bg.jpg) no-repeat center top fixed;--*/
   background-size: cover;
   height: 80%;
   width: 100%;
 }
 
-#history .overlay {
+/*--#history .overlay {
   background: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 1) 80%);
   height: 100%;
   width: 100%;
-}
+}--*/
 
 #history h2 {
   color: ##252525;
@@ -876,11 +876,11 @@ width:100%;
 /* service Section
 --------------------------------*/
 #service {
-  display: inline-block;
+  display: block;
   background-color: #fafafa;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 1) 100%);
+  background: linear-gradient(rgba(250, 250, 250, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 #service h3{
   margin-bottom: 80px;
@@ -930,8 +930,8 @@ width:100%;
 /* Recruit Section
 --------------------------------*/
 #recruit{
-  display: inline-block;
-  background-color: #fff;
+  display: block;
+  background-color: #f3f3f3;
   margin:0 auto;
   height: 100%;
   width: 100%;
