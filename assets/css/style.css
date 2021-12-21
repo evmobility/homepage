@@ -11,10 +11,11 @@
 html{font-size: 16px}
 body {
   background-color: #fff;
-  color: #5a5a5a;
+  color: #222;
   width: 100%;
   font-family:'S-Core';
   word-break: keep-all;
+      letter-spacing: 0.5px;
 }
 
 
@@ -60,20 +61,20 @@ ul {
 }
 
 li {
-  color: #5a5a5a;
-  font-size: 14px;
+  color: #222;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  font-size: 1rem;
+line-height: 1.8;
   text-transform: capitalize;
   margin-bottom: 10px;
 
 }
 
 p {
-  color: #5a5a5a;
+  color: #222222;
       font-size: 1rem;
       text-align: center;
-      font-weight: 400;
+      font-weight: 300;
       line-height: 1.5;
       margin-bottom: 10px;
 }
@@ -614,22 +615,18 @@ transition: 0.3s;
 #features .feature-block img {
   display: block;
   height: 60px;
-  margin: 0 20px 20px 0;
+  margin: 20px 20px 20px 0;
   width: 60px;
   border-radius: 50px;
   background-color: #42ae7e;
 }
-#features h4{
-  font-size: 16px;
-  margin-bottom: 20px;
-  text-align: center;
-}
+
 #features .feature-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
 }
 #features .feature-block h4 {
-  margin:20px 10px;
+  margin:10px 0px;
   text-align: left;
 }
 
@@ -689,11 +686,13 @@ transition: 0.3s;
 }
 #about-us .about-content p {
   text-align: center;
+  color: #222;
   padding-top: 20px;
   margin: 0 auto;
   max-width: 500px;
   display: block;
   font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 #about-us .about-content ul li .fa {
@@ -787,8 +786,10 @@ background:rgba(0, 0, 0, 0) url(../img/history-bg.jpg) no-repeat center top fixe
 #history .history-list{
   flex-direction: row;
   justify-content: flex-start;
-  padding-right: 30px;
+  padding-right: 2.1rem;
+    padding-top: 1rem;
 }
+
 
 #history h4{
   margin-top: 10px;
@@ -810,7 +811,8 @@ width:100%;
 
 #history .history-list li{
   list-style: none;
-  font-size: 14px;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
 /* service Section
@@ -1033,6 +1035,12 @@ padding-top: 80px;
   color: #c2c2c2;
 }
 
+@media (max-width: 767px){
+#service .feature-block p{
+    margin: 0px;
+    padding: 0px 30px;
+  }
+}
 
 @media (max-height: 600px) {
   #hero {
@@ -1056,6 +1064,8 @@ padding-top: 80px;
     background-attachment: fixed;
   }
 }
+
+
 @media (min-width: 1025px) and (max-height: 768px) {
   #hero {
     height: 110vh;
@@ -1194,7 +1204,7 @@ margin: 20px auto;
 }
 
 #service .feature-block {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding:10px
 }
 
@@ -1204,7 +1214,7 @@ margin: 20px auto;
 
 #features .feature-block{
   padding: 30px 30px 10px ;
-  height: 304px
+  max-height: 304px;
 }
 
 #features li{
