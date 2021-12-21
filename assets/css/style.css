@@ -1223,7 +1223,7 @@ margin: 20px auto;
 #recruit .feature-block {
       margin-bottom: 30px;
       padding: 10px 20px;
-      min-height: 200px;
+      height: 90%;
 }
 
 #recruit .separator {
