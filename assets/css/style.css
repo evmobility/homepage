@@ -34,7 +34,7 @@ h2 {
 h4 {
   color: #2e8a7c;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -689,7 +689,7 @@ transition: 0.3s;
   color: #222;
   padding-top: 20px;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 550px;
   display: block;
   font-size: 1.1rem;
   line-height: 1.6;
