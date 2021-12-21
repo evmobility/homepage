@@ -1214,7 +1214,7 @@ margin: 20px auto;
 
 #features .feature-block{
   margin: 0px 0px 20px 0;
-  max-height: 304px;
+  height: 90%;
 }
 
 #features .feature-block img {
