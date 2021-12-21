@@ -828,7 +828,7 @@ width:100%;
   margin-bottom: 80px;
 }
 #service .feature-block {
-  height: 295px;
+  height: 100%;
   background: #fff none repeat scroll 0 0;
   padding: 10px 20px;
   border-radius: 10px;
@@ -1266,18 +1266,14 @@ margin: 20px auto;
     height: 270px;
   }
 #service .feature-block{
-  height: 314px;
+  height: 100%;
 margin-bottom: 0px;
   }
 
 #recruit .feature-block{
-    height: 270px;
-    padding: 10px 5px;
+  padding: 0px 15px;
+    height: 85%;
   }
-
-  #recruit .feature-block img{
-    margin: 0px 20px 20px 0;
-    }
 
   #features .feature-block h4 {
   margin: 0px 0px;
@@ -1307,7 +1303,7 @@ margin-bottom: 0px;
     }
 
   #recruit .feature-block {
-    height: 310px;
+    height: 90%;
     padding: 10px 10px;
 }
 }
