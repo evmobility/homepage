@@ -403,14 +403,14 @@ margin-top: 40px;
 #hero .btn-get-started {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   letter-spacing: 1px;
-  display: inline-block;
-  padding: 11px 36px;
+  display: block;
+  padding: 10px 40px;
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   border: 2px solid #fff;
   background: rgba(225, 225, 225, 0.1);
   color: #fff;
@@ -1175,8 +1175,8 @@ p {
 }
 #hero h1 {
   font-size: 2.375rem;
-margin-top: 90px;
-padding: 0px 87px;
+margin-top:70px;
+padding: 0px 80px;
 }
 
 #hero h2 {
