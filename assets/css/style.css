@@ -17,7 +17,24 @@ body {
   word-break: keep-all;
       letter-spacing: 0.5px;
 }
-
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1; /* 팝업 레이어가 최상위로 오도록 지정 */
+  text-align: center;
+}
+.popup__close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
